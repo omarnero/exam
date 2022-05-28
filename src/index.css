@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.app {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.mb5 {
+  margin-top: 8rem;
+}
+.mb6 {
+  margin-top: 10rem;
+}
