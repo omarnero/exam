@@ -64,7 +64,7 @@ function Login() {
             onChange={nameHandler}
             ref={name}
           />
-          {!vname && <p>The name must be at least eight characters long</p>}
+          {!vname && <p>The name must be at least seven characters long</p>}
         </div>
         <div className={classes.input}>
           <label htmlFor="email">Email</label>
