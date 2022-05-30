@@ -30,6 +30,13 @@ export const ExamProvider = ({ children }) => {
   const addAns = (item) => {
     setArr([item, ...arr]);
   };
+  useEffect(() => {
+    if (!login) {
+      setArr([]);
+      per = 0;
+      setRes(false);
+    }
+  });
   const randEle = (allquestion, num) => {
     let rand = Math.ceil(Math.random() * num);
     for (let i = 0; i < allquestion.length; i++) {
